@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border: 5px solid black;
+    margin-top: 8%;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+}
+button {
+    flex: 1;
+    border: 3px solid black;
+    font-size: 32px;
+}
+
+.displayinfo {
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 48px;
+    padding: 5px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.number {
+    background-color: #008080;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.clear {
+    background-color: red;
+}
+.equal {
+    background-color: lightgreen;
+}
